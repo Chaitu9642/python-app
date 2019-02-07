@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     #count = redis.incr('hits')
-    return 'Welcome to  Python App '
+    return 'Welcome to  Python App'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
